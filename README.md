@@ -2,6 +2,10 @@
 
 For Chipset `0x258a`:`0x1006`
 
+# Check Keyboard Chipset #
+```$ lsusb -v```
+find your keyboard idVendor, if its `0x258`:`0x1006`, it's good to install.
+
 Written for the [Modecom Volcano Lanparty USB Keyboard](http://modecom.com/volcano-lanparty-2/)
 
 How to print all keyboard events:
