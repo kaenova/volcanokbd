@@ -1,6 +1,11 @@
 # Linux Keyboard Chipset Driver #
 
-For Chipset `0x258a`:`0x1006`
+For Chipset `0x258a`:`0x1006`  
+For Arch Linux please install the prerequisite such as `base-devel`, `mercurial`, `dkms`, and linux headers(https://www.linuxsec.org/2020/01/cara-install-kernel-headers-di-arch.html)  
+after that install using script
+```
+./install.sh dkms
+```
 
 # Check Keyboard Chipset #
 ```$ lsusb -v```
